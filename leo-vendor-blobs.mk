@@ -22,13 +22,8 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/akmd:system/bin/akmd \
     vendor/htc/leo/proprietary/parse_radio_log:system/bin/parse_radio_log \
-    vendor/htc/leo/proprietary/vold:system/bin/vold \
     vendor/htc/leo/proprietary/AudioBTID.csv:system/etc/AudioBTID.csv \
     vendor/htc/leo/proprietary/AdieHWCodecSetting.csv:system/etc/AdieHWCodecSetting.csv \
-    vendor/htc/leo/proprietary/BCM4329B1_002.002.023.0360.0362.hcd:system/etc/firmware/BCM4329B1_002.002.023.0360.0362.hcd \
-    vendor/htc/leo/proprietary/BCM4329B1_002.002.023.0436.0439.hcd:system/etc/firmware/BCM4329B1_002.002.023.0436.0439.hcd \
-    vendor/htc/leo/proprietary/BCM4329B1_002.002.023.0436.0439.hcd:system/etc/firmware/BCM4329B1_002.002.023.0436.0439.hcd \
-    vendor/htc/leo/proprietary/BCM4329B1_002.002.023.0511.0538.hcd:system/etc/firmware/BCM4329B1_002.002.023.0511.0538.hcd \
     vendor/htc/leo/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
     vendor/htc/leo/proprietary/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/leo/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
@@ -42,9 +37,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/leo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/leo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
-    vendor/htc/leo/proprietary/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
     vendor/htc/leo/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/leo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so \
+    vendor/htc/leo/proprietary/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/htc/leo/proprietary/audio_policy.default.so:system/lib/hw/audio_policy.default.so \

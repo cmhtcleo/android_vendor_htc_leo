@@ -43,4 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so \
     vendor/htc/leo/proprietary/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/htc/leo/proprietary/audio.primary.qsd8k.so:system/lib/hw/audio.primary.qsd8k.so \
     vendor/htc/leo/proprietary/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/htc/leo/proprietary/audio_policy.qsd8k.so:system/lib/hw/audio_policy.qsd8k.so \
+    vendor/htc/leo/proprietary/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \

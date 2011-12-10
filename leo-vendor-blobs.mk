@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/akmd:system/bin/akmd \
     vendor/htc/leo/proprietary/parse_radio_log:system/bin/parse_radio_log \
+    vendor/htc/leo/proprietary/bootanimation:system/bin/bootanimation \
     vendor/htc/leo/proprietary/AudioBTID.csv:system/etc/AudioBTID.csv \
     vendor/htc/leo/proprietary/AdieHWCodecSetting.csv:system/etc/AdieHWCodecSetting.csv \
     vendor/htc/leo/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
@@ -41,9 +42,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/htc/leo/proprietary/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
     vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so \
     vendor/htc/leo/proprietary/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/htc/leo/proprietary/audio.primary.qsd8k.so:system/lib/hw/audio.primary.qsd8k.so \
     vendor/htc/leo/proprietary/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/htc/leo/proprietary/audio_policy.qsd8k.so:system/lib/hw/audio_policy.qsd8k.so \
     vendor/htc/leo/proprietary/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/htc/leo/proprietary/gralloc.qsd8k.so:system/lib/hw/gralloc.qsd8k.so \
+    vendor/htc/leo/proprietary/hwcomposer.default.so:system/lib/hw/hwcomposer.default.so \

@@ -22,18 +22,12 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/akmd:system/bin/akmd \
     vendor/htc/leo/proprietary/parse_radio_log:system/bin/parse_radio_log \
-    vendor/htc/leo/proprietary/bootanimation:system/bin/bootanimation \
     vendor/htc/leo/proprietary/AudioBTID.csv:system/etc/AudioBTID.csv \
     vendor/htc/leo/proprietary/AdieHWCodecSetting.csv:system/etc/AdieHWCodecSetting.csv \
     vendor/htc/leo/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
     vendor/htc/leo/proprietary/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/leo/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/leo/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/htc/leo/proprietary/libEGL.so:system/lib/libEGL.so \
-    vendor/htc/leo/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/leo/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/leo/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/leo/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/leo/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/htc/leo/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/leo/proprietary/libgps.so:system/lib/libgps.so \
@@ -44,12 +38,43 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/htc/leo/proprietary/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
     vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so \
     vendor/htc/leo/proprietary/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/htc/leo/proprietary/audio.primary.qsd8k.so:system/lib/hw/audio.primary.qsd8k.so \
     vendor/htc/leo/proprietary/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/htc/leo/proprietary/audio_policy.qsd8k.so:system/lib/hw/audio_policy.qsd8k.so \
     vendor/htc/leo/proprietary/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+
+
+# HW Acceleration
+PRODUCT_COPY_FILES += \
+    vendor/htc/leo/proprietary/bootanimation:system/bin/bootanimation \
+    vendor/htc/leo/proprietary/libEGL.so:system/lib/libEGL.so \
+    vendor/htc/leo/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/leo/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/htc/leo/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/leo/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/leo/proprietary/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
     vendor/htc/leo/proprietary/gralloc.qsd8k.so:system/lib/hw/gralloc.qsd8k.so \
     vendor/htc/leo/proprietary/hwcomposer.default.so:system/lib/hw/hwcomposer.default.so \
+
+
+# Codecs
+PRODUCT_COPY_FILES += \
+    vendor/htc/leo/proprietary/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
+    vendor/htc/leo/proprietary/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
+    vendor/htc/leo/proprietary/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
+    vendor/htc/leo/proprietary/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
+    vendor/htc/leo/proprietary/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/htc/leo/proprietary/libstagefright_omx.so:system/lib/libstagefright_omx.so \
+    vendor/htc/leo/proprietary/libstagefright.so:system/lib/libstagefright.so \
+    vendor/htc/leo/proprietary/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
+    vendor/htc/leo/proprietary/libstagefright_soft_amrdec.so:system/lib/libstagefright_soft_amrdec.so \
+    vendor/htc/leo/proprietary/libstagefright_soft_g711dec.so:system/lib/libstagefright_soft_g711dec.so \
+    vendor/htc/leo/proprietary/libstagefright_soft_h264dec.so:system/lib/libstagefright_soft_h264dec.so \
+    vendor/htc/leo/proprietary/libstagefright_soft_mp3dec.so:system/lib/libstagefright_soft_mp3dec.so \
+    vendor/htc/leo/proprietary/libstagefright_soft_mpeg4dec.so:system/lib/libstagefright_soft_mpeg4dec.so \
+    vendor/htc/leo/proprietary/libstagefright_soft_vorbisdec.so:system/lib/libstagefright_soft_vorbisdec.so \
+    vendor/htc/leo/proprietary/libstagefright_soft_vpxdec.so:system/lib/libstagefright_soft_vpxdec.so \
+    vendor/htc/leo/proprietary/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
+

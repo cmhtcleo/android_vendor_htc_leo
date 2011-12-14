@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/htc/leo/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/htc/leo/proprietary/libgsl.so:system/lib/libgsl.so \
-    vendor/htc/leo/proprietary/libgps.so:system/lib/libgps.so \
     vendor/htc/leo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/leo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/leo/proprietary/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \

@@ -38,25 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so \
-    vendor/htc/leo/proprietary/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/htc/leo/proprietary/audio.primary.qsd8k.so:system/lib/hw/audio.primary.qsd8k.so \
-    vendor/htc/leo/proprietary/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/htc/leo/proprietary/audio_policy.qsd8k.so:system/lib/hw/audio_policy.qsd8k.so \
-    vendor/htc/leo/proprietary/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-
-
-# HW Acceleration
-PRODUCT_COPY_FILES += \
-    vendor/htc/leo/proprietary/bootanimation:system/bin/bootanimation \
-    vendor/htc/leo/proprietary/libEGL.so:system/lib/libEGL.so \
-    vendor/htc/leo/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/leo/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/leo/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/leo/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/leo/proprietary/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-    vendor/htc/leo/proprietary/gralloc.qsd8k.so:system/lib/hw/gralloc.qsd8k.so \
-    vendor/htc/leo/proprietary/hwcomposer.default.so:system/lib/hw/hwcomposer.default.so \
-
 
 # Codecs
 PRODUCT_COPY_FILES += \

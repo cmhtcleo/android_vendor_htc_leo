@@ -28,19 +28,24 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/leo/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/leo/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/htc/leo/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/htc/leo/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/leo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/leo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/leo/proprietary/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
-    vendor/htc/leo/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/leo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so \
+    vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so
+
+# Camera
+PRODUCT_COPY_FILES += \
+    vendor/htc/leo/proprietary/libcamera.so:system/lib/libcamera.so \
+    vendor/htc/leo/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/htc/leo/proprietary/camera.qsd8k.so:system/lib/hw/camera.qsd8k.so
 
 # HW Acceleration
 PRODUCT_COPY_FILES += \
+    vendor/htc/leo/proprietary/libEGL.so:system/lib/libEGL.so \
     vendor/htc/leo/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/leo/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/leo/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \

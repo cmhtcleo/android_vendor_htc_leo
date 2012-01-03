@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
 
 # HW Acceleration
 PRODUCT_COPY_FILES += \
-    vendor/htc/leo/proprietary/libEGL.so:system/lib/libEGL.so \
     vendor/htc/leo/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/leo/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/leo/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \

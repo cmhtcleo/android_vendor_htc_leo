@@ -27,9 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/AdieHWCodecSetting.csv:system/etc/AdieHWCodecSetting.csv \
     vendor/htc/leo/proprietary/BCM4329B1_002.002.023.0360.0362.hcd:system/etc/firmware/BCM4329B1_002.002.023.0360.0362.hcd \
     vendor/htc/leo/proprietary/BCM4329B1_002.002.023.0436.0439.hcd:system/etc/firmware/BCM4329B1_002.002.023.0436.0439.hcd \
-    vendor/htc/leo/proprietary/BCM4329B1_002.002.023.0436.0439.hcd:system/etc/firmware/BCM4329B1_002.002.023.0436.0439.hcd \
     vendor/htc/leo/proprietary/BCM4329B1_002.002.023.0511.0538.hcd:system/etc/firmware/BCM4329B1_002.002.023.0511.0538.hcd \
     vendor/htc/leo/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
+    vendor/htc/leo/proprietary/htcleo.acdb:system/etc/firmware/htcleo.acdb \
     vendor/htc/leo/proprietary/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/leo/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/leo/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
@@ -46,3 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so \
+    vendor/htc/leo/proprietary/gps.leo.so:system/lib/hw/gps.leo.so \
+    vendor/htc/leo/proprietary/sensors.bravo.so:system/lib/hw/sensors.bravo.so \

@@ -46,6 +46,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/htc/leo/proprietary/gps.htcleo.so:system/lib/hw/gps.htcleo.so \
-    vendor/htc/leo/proprietary/gps.leo.so:system/lib/hw/gps.leo.so \
     vendor/htc/leo/proprietary/sensors.bravo.so:system/lib/hw/sensors.bravo.so \

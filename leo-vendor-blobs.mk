@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/htc/leo/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/htc/leo/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/htc/leo/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
 # All the blobs necessary for leo
 PRODUCT_COPY_FILES += \

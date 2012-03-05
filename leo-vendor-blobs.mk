@@ -47,3 +47,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/leo/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/htc/leo/proprietary/sensors.bravo.so:system/lib/hw/sensors.bravo.so \
+	vendor/htc/leo/proprietary/libwebkitaccel.so:system/lib/libwebkitaccel.so

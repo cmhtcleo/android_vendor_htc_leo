@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/htc/leo/proprietary/akmd:system/bin/akmd \
     vendor/htc/leo/proprietary/parse_radio_log:system/bin/parse_radio_log \
+	vendor/htc/leo/proprietary/AdieHWCodecSetting.csv:system/etc/AdieHWCodecSetting.csv \
     vendor/htc/leo/proprietary/AudioBTID.csv:system/etc/AudioBTID.csv \
     vendor/htc/leo/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
     vendor/htc/leo/proprietary/default.acdb:system/etc/firmware/default.acdb \

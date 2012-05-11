@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 	vendor/htc/leo/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 	vendor/htc/leo/proprietary/libgsl.so:system/lib/libgsl.so \
-	vendor/htc/leo/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-	vendor/htc/leo/proprietary/liblasic.so:system/lib/liblasic.so \
 	vendor/htc/leo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
 	vendor/htc/leo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
 	vendor/htc/leo/proprietary/libhtc_ril_wrapper.so:system/lib/libhtc_ril_wrapper.so \
@@ -40,11 +38,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/libcamera.so:system/lib/libcamera.so \
 	vendor/htc/leo/proprietary/liboemcamera.so:system/lib/liboemcamera.so
-	
-# omxtest
-PRODUCT_COPY_FILES += \
-	vendor/htc/leo/proprietary/mm-vdec-omx-test:system/bin/mm-vdec-omx-test \
-	vendor/htc/leo/proprietary/mm-venc-omx-test:system/bin/mm-venc-omx-test
 
 # HW Acceleration
 PRODUCT_COPY_FILES += \

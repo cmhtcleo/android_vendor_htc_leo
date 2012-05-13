@@ -39,6 +39,11 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/libcamera.so:system/lib/libcamera.so \
 	vendor/htc/leo/proprietary/liboemcamera.so:system/lib/liboemcamera.so
 
+# GPS
+PRODUCT_COPY_FILES += \
+	vendor/htc/leo/proprietary/librpc.so:system/lib/librpc.so \
+	vendor/htc/leo/proprietary/libgps.so:system/lib/libgps.so
+
 # HW Acceleration
 PRODUCT_COPY_FILES += \
 	vendor/htc/leo/proprietary/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
